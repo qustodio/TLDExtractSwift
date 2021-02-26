@@ -3,16 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D797A0A25E90BD500BB4EE5 /* Punycode.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D797A0925E90BD500BB4EE5 /* Punycode.xcframework */; };
+		5D797A1125E90BDB00BB4EE5 /* Punycode.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D797A0925E90BD500BB4EE5 /* Punycode.xcframework */; };
+		5D797A1825E90BE100BB4EE5 /* Punycode.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D797A0925E90BD500BB4EE5 /* Punycode.xcframework */; };
 		A720FBC921A1C47A009D1A73 /* public_suffix_list_frozen.dat in Resources */ = {isa = PBXBuildFile; fileRef = A720FBC821A1C47A009D1A73 /* public_suffix_list_frozen.dat */; };
 		A720FBCA21A1C47A009D1A73 /* public_suffix_list_frozen.dat in Resources */ = {isa = PBXBuildFile; fileRef = A720FBC821A1C47A009D1A73 /* public_suffix_list_frozen.dat */; };
 		A720FBCB21A1C47A009D1A73 /* public_suffix_list_frozen.dat in Resources */ = {isa = PBXBuildFile; fileRef = A720FBC821A1C47A009D1A73 /* public_suffix_list_frozen.dat */; };
-		A7948D6E21A310E40016DFB7 /* Punycode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7948D6B21A310CE0016DFB7 /* Punycode.framework */; };
-		A7948D6F21A310E60016DFB7 /* Punycode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7948D6821A310CE0016DFB7 /* Punycode.framework */; };
-		A7948D7021A310E90016DFB7 /* Punycode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7948D6421A310CE0016DFB7 /* Punycode.framework */; };
 		A7A0ECE7219EB279004FBE05 /* TLDExtract.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A0ECDD219EB279004FBE05 /* TLDExtract.framework */; };
 		A7A0ED3A219EC0FD004FBE05 /* TLDExtract.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A0ED14219EB6C8004FBE05 /* TLDExtract.framework */; };
 		A7A0ED65219EC8D1004FBE05 /* TLDExtract.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A0ED42219EC3E3004FBE05 /* TLDExtract.framework */; };
@@ -67,6 +67,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D797A0925E90BD500BB4EE5 /* Punycode.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Punycode.xcframework; path = Carthage/Build/Punycode.xcframework; sourceTree = "<group>"; };
 		A720FBC821A1C47A009D1A73 /* public_suffix_list_frozen.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = public_suffix_list_frozen.dat; sourceTree = "<group>"; };
 		A7948D6421A310CE0016DFB7 /* Punycode.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Punycode.framework; sourceTree = "<group>"; };
 		A7948D6821A310CE0016DFB7 /* Punycode.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Punycode.framework; sourceTree = "<group>"; };
@@ -94,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7948D6E21A310E40016DFB7 /* Punycode.framework in Frameworks */,
+				5D797A0A25E90BD500BB4EE5 /* Punycode.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,7 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7948D6F21A310E60016DFB7 /* Punycode.framework in Frameworks */,
+				5D797A1125E90BDB00BB4EE5 /* Punycode.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7948D7021A310E90016DFB7 /* Punycode.framework in Frameworks */,
+				5D797A1825E90BE100BB4EE5 /* Punycode.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +196,7 @@
 		A7A0ED36219EB9FD004FBE05 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5D797A0925E90BD500BB4EE5 /* Punycode.xcframework */,
 				A7948D6921A310CE0016DFB7 /* iOS */,
 				A7948D6621A310CE0016DFB7 /* Mac */,
 				A7948D6221A310CE0016DFB7 /* tvOS */,
@@ -328,7 +330,6 @@
 				A7A0ED18219EB6C9004FBE05 /* Sources */,
 				A7A0ED19219EB6C9004FBE05 /* Frameworks */,
 				A7A0ED1A219EB6C9004FBE05 /* Resources */,
-				A7948D7221A32ADA0016DFB7 /* Copy Carthage Frameworks */,
 			);
 			buildRules = (
 			);
@@ -366,7 +367,6 @@
 				A7A0ED46219EC3E3004FBE05 /* Sources */,
 				A7A0ED47219EC3E3004FBE05 /* Frameworks */,
 				A7A0ED48219EC3E3004FBE05 /* Resources */,
-				A7948D7421A32B070016DFB7 /* Copy Carthage Frameworks */,
 			);
 			buildRules = (
 			);
@@ -494,44 +494,6 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/Punycode.framework",
-			);
-			name = "Copy Carthage Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
-		};
-		A7948D7221A32ADA0016DFB7 /* Copy Carthage Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/Mac/Punycode.framework",
-			);
-			name = "Copy Carthage Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
-		};
-		A7948D7421A32B070016DFB7 /* Copy Carthage Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/tvOS/Punycode.framework",
 			);
 			name = "Copy Carthage Frameworks";
 			outputFileListPaths = (
